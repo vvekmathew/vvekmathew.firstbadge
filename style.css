@@ -1,0 +1,42 @@
+body{
+    overflow-x: hidden;
+}
+
+/*----top bar---*/
+
+.top-bar{
+    background: rgb(94, 94, 192);
+    height: 2.8rem;
+}
+
+/*---navigation---*/
+
+.navbar-brand img{
+    height: 3rem;
+}
+
+.navbar-light{
+    font-size: 1.15rem;
+    font-weight: 600;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.navbar-expand-lg{
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.8);
+}
+
+.nav-item{
+    padding: 0.5rem;
+}
+
+/*---carousel----*/
+
+#carousel{
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.8);
+}
+
+.carousel-inner{
+    max-height: 38rem!important;
+}
+
