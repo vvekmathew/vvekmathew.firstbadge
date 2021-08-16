@@ -1,75 +1,42 @@
-html{
-    background: url(img/solar.jpg);
+body{
+    overflow-x: hidden;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  
-/*--------------IMAGES---------------------*/
+/*----top bar---*/
 
-.profile_background{
-    height: auto;
-    display: block;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 90px;
+.top-bar{
+    background: rgb(94, 94, 192);
+    height: 2.8rem;
 }
 
+/*---navigation---*/
 
-
-.profile{
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    top:  30%;
-    left: 47%;
-    /*transform: translate(20%, 150%);*/
+.navbar-brand img{
+    height: 3rem;
 }
 
-/*--------------TEXT------------*/
-
-h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.navbar-light{
+    font-size: 1.15rem;
+    font-weight: 600;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
-h3{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 100%);
+.navbar-expand-lg{
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.8);
 }
 
-/*------------ICONS------------*/
-/*.icons{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}*/
-
-.fa-facebook-square{
-    position: absolute;
-    top: 70%;
-    left: 40%;
+.nav-item{
+    padding: 0.5rem;
 }
 
-.fa-twitter-square{
-    position: absolute;
-    top: 70%;
-    left: 48.5%;
+/*---carousel----*/
+
+#carousel{
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.8);
 }
 
-.fa-google-plus-square{
-    position: absolute;
-    top: 70%;
-    left: 57%;
+.carousel-inner{
+    max-height: 38rem!important;
 }
+
